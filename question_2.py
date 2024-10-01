@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 URL_login = "https://quotes.toscrape.com/login"
-URL_target = "https://quotes.toscrape.com/"
+URL_base = "https://quotes.toscrape.com/"
 page = requests.get(URL_login)
 soup = BeautifulSoup(page.content, "html.parser")
 
@@ -34,4 +34,5 @@ if response.status_code == 200:
     print("Connexion réussie")
 else:
     print("Échec de la connexion")
+
 
