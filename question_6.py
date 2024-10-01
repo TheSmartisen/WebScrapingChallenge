@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-URL = "https://quotes.toscrape.com/js/page/10/"
+URL = "https://quotes.toscrape.com/js-delayed/page/5/"
 
 parts = URL.split('/')
 URL_base = '/'.join(parts[:-2]) + '/'
@@ -20,7 +20,7 @@ try:
         url = URL_base + str(page_number)
         driver.get(url)
         previousElement = None
-        WebDriverWait(driver, 10).until(
+        WebDriverWait(driver, 20).until(
             EC.presence_of_element_located((By.CLASS_NAME, "quote"))
         )
         page_content = driver.page_source
