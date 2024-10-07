@@ -94,4 +94,8 @@ python question_8.py
 
 - Combien de temps vous faudra-t-il plus ou moins pour scraper tout le contenu de [ce site web](http://quotes.toscrape.com/random) ?
 
-Etant donné que l'url est aléatoire . Cela dépendra de la puissance de ma machine du activité de ma machine. Sachant que pour une période d'une semaine, Si je laisse mon script et mon pc ouvert entre 9h et 17h, cela fera 8h par jour. Donc mon estimation serait 40h  sur une période d'une semaine pour scraper cette page
+```bash
+python question_9.py
+```
+
+Avec ce script, j'ai trouvé 65 citations unique en environ 4 minutes
