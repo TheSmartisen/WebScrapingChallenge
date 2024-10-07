@@ -16,7 +16,7 @@ unique_quotes = set()
 start_time = datetime.datetime.now()
 
 # Nombre maximum de rechargements sans nouvelle citation pour arrêter
-max_no_new_quote_iterations = 10
+max_no_new_quote_iterations = 20
 no_new_quote_count = 0
 
 while no_new_quote_count < max_no_new_quote_iterations:
@@ -57,7 +57,3 @@ duration = end_time - start_time
 # Afficher les résultats
 print(f"Nombre total de citations uniques : {len(unique_quotes)}")
 print(f"Durée totale pour scraper toutes les citations différentes : {duration}")
-
-# Optionnel : Afficher toutes les citations uniques
-for quote in unique_quotes:
-    print(quote)
