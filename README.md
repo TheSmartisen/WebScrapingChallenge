@@ -94,4 +94,4 @@ python question_8.py
 
 - Combien de temps vous faudra-t-il plus ou moins pour scraper tout le contenu de [ce site web](http://quotes.toscrape.com/random) ?
 
-Je dirais 30 min pour ce site en analysant tous les tags et en écrivant le script mais en utilisant ChatGPT 1 ou 2 min
+Etant donné que l'url est aléatoire . Cela dépendra de la puissance de ma machine du activité de ma machine. Sachant que pour une période d'une semaine, Si je laisse mon script et mon pc ouvert entre 9h et 17h, cela fera 8h par jour. Donc mon estimation serait 40h  sur une période d'une semaine pour scraper cette page
