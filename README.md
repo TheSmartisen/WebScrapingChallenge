@@ -98,4 +98,4 @@ python question_8.py
 python question_9.py
 ```
 
-Avec ce script, j'ai trouvé 65 citations unique en environ 4 minutes
+Avec ce script, environ 4- 15 minutes
